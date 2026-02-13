@@ -10,7 +10,7 @@ def mysteryfunction2(x):
 a = [1, 4, 7]
 result = 0
 for i in a:
-    result += mysteryfunction2(i)
+    result = result + mysteryfunction2(i)
 
     
 print(result)
