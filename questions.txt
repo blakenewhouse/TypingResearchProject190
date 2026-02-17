@@ -1,0 +1,5 @@
+Questions to ask (possibly):
+
+1. Does this program have an error? Why/why not?
+2. What type does the function return, given the main provided?
+3. Would the function work if [x] was changed to [y]?
