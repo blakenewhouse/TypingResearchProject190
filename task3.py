@@ -2,7 +2,7 @@
 # program should return a float (decimal)
 
 # function
-def mystery_function1(nums):
+def mystery_function3(nums):
     total = 0
 
     for n in nums:
@@ -12,5 +12,5 @@ def mystery_function1(nums):
 
 # main
 test = [1, 2, 3]
-result = mystery_function1(test)
+result = mystery_function3(test)
 print(result)

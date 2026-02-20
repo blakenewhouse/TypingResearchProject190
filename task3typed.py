@@ -1,9 +1,9 @@
 # program should have no errors, prints 2.0
 # program should return a float (decimal)
+from typing import List
 
 # function
-from typing import List
-def mystery_function1(nums: List[int]) -> float:
+def mystery_function3(nums: List[int]) -> float:
     total = 0
 
     for n in nums:
@@ -13,5 +13,5 @@ def mystery_function1(nums: List[int]) -> float:
 
 # main
 test = [1, 2, 3]
-result = mystery_function1(test)
+result = mystery_function3(test)
 print(result)
