@@ -8,10 +8,10 @@ def mysteryfunction2(x):
         
 # main program
 a = [1, 4, 7]
+
+
+
 result = 0
-for i in a:
-    result = result + mysteryfunction2(i)
-
-    
+for num in a:
+    result = result + mysteryfunction2(num)
 print(result)
-
