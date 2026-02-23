@@ -2,7 +2,7 @@
 # program should return a float (decimal)
 from typing import List
 
-# function
+# mystery function
 def mystery_function3(nums: List[int]) -> float:
     total: int = 0
 
@@ -11,7 +11,7 @@ def mystery_function3(nums: List[int]) -> float:
 
     return total / len(nums)
 
-# main
+# main program
 test: List[int] = [1, 2, 3]
 
 

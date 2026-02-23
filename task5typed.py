@@ -1,5 +1,5 @@
-# Program should have a type error, TypeError: can only concatenate str (not "int") to str
-# Return type of the function should be a list of integers and strings, if it doesn't error
+# Program should have a type error after printing True, TypeError: unsupported operand type(s) for /: 'str' and 'int'
+# Return type of the function should be a boolean, if it doesn't error
 
 from typing import List, Union, Optional
 

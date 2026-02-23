@@ -1,7 +1,7 @@
 # program should have no errors, prints 2.0
 # program should return a float (decimal)
 
-# function
+# mystery function
 def mystery_function3(nums):
     total = 0
 
@@ -10,7 +10,7 @@ def mystery_function3(nums):
 
     return total / len(nums)
 
-# main
+# main program
 test = [1, 2, 3]
 
 
