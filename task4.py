@@ -8,6 +8,7 @@ def mystery_function4(items):
 # main
 items = ["hello_", 5, "world_", 2]
 
-result = mystery_function4(items)
 
+
+result = mystery_function4(items)
 print(result)

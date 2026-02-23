@@ -14,5 +14,7 @@ def mysteryfunction1(x: list[int | str]) -> list[int | str]:
 # main program
 a: list[int | str] = [1, 2, "apple"]
 
+
+
 result = mysteryfunction1(a)
 print(result)

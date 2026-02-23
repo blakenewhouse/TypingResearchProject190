@@ -10,9 +10,10 @@ def mysteryfunction2(x: int) -> int:
         
 # main program
 a: List[int] = [1, 4, 7]
-result = 0
-for i in a:
-    result = result + mysteryfunction2(i)
-    
-print(result)
 
+
+
+result = 0
+for num in a:
+    result = result + mysteryfunction2(num)
+print(result)

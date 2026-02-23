@@ -7,8 +7,9 @@ def mystery_function4(items: list[int | str]) -> int | str:
     return items[0] * items[1]
 
 # main
-items = ["hello_", 5, "world_", 2]
+items: List[str | int] = ["hello_", 5, "world_", 2]
+
+
 
 result = mystery_function4(items)
-
 print(result)

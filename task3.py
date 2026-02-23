@@ -12,5 +12,8 @@ def mystery_function3(nums):
 
 # main
 test = [1, 2, 3]
+
+
+
 result = mystery_function3(test)
 print(result)

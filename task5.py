@@ -1,18 +1,22 @@
 # Program should have a type error, TypeError: can only concatenate str (not "int") to str
 # Return type of the function should be a list of integers and strings, if it doesn't error
 
+from typing import List, Union, Optional
+
 # mystery function
-def mysteryfunction1(x):
-    idx = 0
-    for i in x:
-        x[idx] = i + 1
-        idx = idx + 1
-    return x
+def mysteryfunction5(x):
+    half = x / 2
+    ans = True
+    if half == 0:
+        return ans
+    else:
+        ans = False
+        return ans
         
 # main program
-a = [1, 2, "apple"]
+a = 11
 
 
 
-result = mysteryfunction1(a)
+result = mysteryfunction5(a)
 print(result)
