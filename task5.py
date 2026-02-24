@@ -4,7 +4,7 @@
 from typing import List, Union, Optional
 
 # mystery function
-def mysteryfunction5(x):
+def mysteryfunction1(x):
     half = x / 2
     ans = True
     if half == 0:
@@ -18,5 +18,5 @@ a = 11
 
 
 
-result = mysteryfunction5(a)
+result = mysteryfunction1(a)
 print(result)
