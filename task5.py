@@ -5,7 +5,7 @@ from typing import List, Union, Optional
 
 # mystery function
 def mysteryfunction1(x):
-    half = x / 2
+    half = x % 2
     ans = True
     if half == 0:
         return ans
@@ -14,9 +14,12 @@ def mysteryfunction1(x):
         return ans
         
 # main program
-a = 11
+a = [0, 12.0, True, "apple", -1, False]
 
 
 
 result = mysteryfunction1(a)
 print(result)
+
+result1 = mysteryfunction1(a[3])
+print(result1)
