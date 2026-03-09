@@ -5,7 +5,7 @@ from typing import List, Union, Optional
 
 # mystery function
 def mysteryfunction1(x: int) -> bool:
-    half: float = x / 2
+    half: float = x % 2
     ans: bool = True
     if half == 0:
         return ans
