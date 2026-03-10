@@ -18,7 +18,7 @@ a = [0, 12.0, True, "apple", -1, False]
 
 
 
-result = mysteryfunction1(a)
+result = mysteryfunction1(a[0])
 print(result)
 
 result1 = mysteryfunction1(a[3])
